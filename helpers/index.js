@@ -1,6 +1,6 @@
-const requestError = require('./requestError');
+// const requestError = require('./requestError');
 const ctrlWrapper = require('./ctrlWrapper');
 module.exports = {
-  requestError,
+  // requestError,
   ctrlWrapper,
 };
