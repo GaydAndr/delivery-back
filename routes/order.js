@@ -9,6 +9,6 @@ const router = express.Router();
 
 router.get('/', ctrlWrapper(ctrl.getOrders));
 
-router.post('/', validateBody(schema.addSchema), ctrlWrapper(ctrl.addOrder));
+router.post('/', ctrlWrapper(ctrl.addOrder));
 
 module.exports = router;

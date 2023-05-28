@@ -39,8 +39,8 @@ const addSchema = Joi.object({
   email: Joi.string().required(),
   phone: Joi.string().required(),
   address: Joi.string().required(),
-  dishes: Joi.array(),
   total_price: Joi.number(),
+  dishes: Joi.array(),
 });
 
 const schema = {
